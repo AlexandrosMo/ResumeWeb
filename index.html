@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alexandros Moraitis - Software Engineer specializing in full-stack development. Check my portfolio for projects, skills, and certifications.">
+    <meta name="keywords" content="software engineer, web developer, portfolio, projects, certifications, resume">
+    <meta name="author" content="Alexandros Moraitis">
+    <title>Alexandros Moraitis - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Alexandros Moraitis</h1>
+            <p>Software Engineer | Full-Stack Developer</p>
+        <a href="AlexandrosMoraitisResume.pdf" download="AlexandrosMoraitisResume.pdf" class = "download-resume">
+
+                Download Resume (PDF)
+        </a>
+        </div>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/αλέξανδρος-μωραΐτης-143b40277" target="_blank">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/AlexandrosMo" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+        
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle" aria-label="Toggle dark mode">
+            <i class="fas fa-moon"></i>
+        </button>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="1718212023507.jfif" alt="Alexandros Moraitis" class="profile-image" loading="lazy">
+            <p>
+                I am a highly motivated Software Engineer with experience in front-end, back-end, and full-stack development. My technical expertise includes programming in C++, Python, C#, and JavaScript, as well as building web applications using React and Angular. With a strong background in IT support and system administration, I have developed excellent problem-solving and troubleshooting skills, enabling me to deliver efficient and scalable solutions.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project">
+                
+                <h3>E-Commerce Website</h3>
+                <p>A full-stack e-commerce platform built with React, Node.js, and MongoDB.</p>
+                <p><strong>Technologies:</strong> React, Node.js, MongoDB, HTML5, CSS</p>
+                <a href="https://github.com/AlexandrosMo/ecommerce" target="_blank" class="project-link">View on GitHub</a>
+            </div>
+            
+            <div class="project">
+                
+                <h3>Task Management App</h3>
+                <p>A Task Manager App built with Python.</p>
+                <p><strong>Technologies:</strong>Python</p>
+                <a href="https://github.com/AlexandrosMo/TaskManagerApp/blob/main/TaskManagerApp/TaskManager.py" target="_blank" class="project-link">View on GitHub</a>
+            </div>
+
+            <div class = "project">
+                
+                <h3>HandTrackingAI</h3>
+                <p>Hand Tracking AI App built with Python.</p>
+                <p><strong>Technologies:</strong>Python</p>
+                <a href="https://github.com/AlexandrosMo/HandTrackingAI" target="_blank" class="project-link">View on GitHub</a>
+            </div>
+
+            <div class="project">
+                
+                <h3>Face Detection</h3>
+                <p>Face Detection app built with Python.</p>
+                <p><strong>Technologies:</strong>Python</p>
+                <a href="https://github.com/AlexandrosMo/FaceDetection.py" target="_blank" class="project-link">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">
+                <i class="fas fa-code"></i>
+                <h3>Programming Languages</h3>
+                <p>C++, Python, C#, JavaScript</p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Web Development</h3>
+                <p>HTML5, CSS, JavaScript, React, Angular</p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-tools"></i>
+                <h3>Tools & Technologies</h3>
+                <p>Git, GitHub, Linux, Windows</p>
+            </div>
+        </div>
+        <canvas id="skillsChart"></canvas>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="certifications-grid">
+            <div class="certification">
+                <h3>Introduction to Python</h3>
+                <p>Issued by: University Of Patras</p>
+                <p>Date: March 2024</p>
+                <a href="#" target="_blank" class="certification-link">View Certificate</a>
+            </div>
+            <div class="certification">
+                <h3>Software Engineering Essentials By IBM</h3>
+                <p>Issued by: Coursera</p>
+                <p>Date: February 2025</p>
+                <a href="https://www.credly.com/badges/74d42c21-22c3-4893-b167-793f67433fd1/linked_in_profile" target="_blank" class="certification-link">View Certificate</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Alexandros Moraitis. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
